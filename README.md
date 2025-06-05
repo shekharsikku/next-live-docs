@@ -5,22 +5,14 @@
     </a>
   <br />
 
-  <h3 align="center">A Collaborative Live Docs</h3>
+  <h3 align="center"><strong>A Collaborative Live Docs </strong></h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
-
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🚀 [More](#more)
-
-## <a name="introduction">🤖 Introduction</a>
+## **🤖 Introduction**
 
 Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Google Docs. The primary goal is to demonstrate the developer's skills in realtime environment that creates a lasting impact.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## **⚙️ Tech Stack**
 
 - Next.js
 - TypeScript
@@ -29,7 +21,7 @@ Built with Next.js to handle the user interface, Liveblocks for real-time featur
 - ShadCN UI
 - Tailwind CSS
 
-## <a name="features">🔋 Features</a>
+## **🔋 Features**
 
 👉 **Authentication**: User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management.
 
@@ -52,28 +44,25 @@ Built with Next.js to handle the user interface, Liveblocks for real-time featur
 
 and many more, including code architecture and reusability
 
-## <a name="quick-start">🤸 Quick Start</a>
+## **🤸 Quick Start**
 
 Follow these steps to set up the project locally on your machine.
 
 **Prerequisites**
 
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+Make sure you have the following `Git, Node.js, npm` installed on your machine.
 
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/shekharsikku/live_docs_editor
-cd live_docs_editor
+git clone https://github.com/shekharsikku/next-live-docs
+
+cd next-live-docs
 ```
 
 **Installation**
 
-Install the project dependencies using npm:
+Install the project dependencies using npm.
 
 ```bash
 npm install
@@ -81,7 +70,7 @@ npm install
 
 **Set Up Environment Variables**
 
-Create a new file named `.env` in the root of your project and add the following content:
+Create a new file named `.env` in the root of your project and add the following contents.
 
 ```env
 #Clerk
@@ -95,7 +84,7 @@ NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=
 LIVEBLOCKS_SECRET_KEY=
 ```
 
-Replace the placeholder values with your actual Clerk & LiveBlocks credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/) and [Liveblocks](liveblocks.io/) website.
+#### Replace the placeholder values with your actual Clerk & LiveBlocks credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/) and [Liveblocks](liveblocks.io/) website.
 
 **Running the Project**
 
@@ -103,4 +92,6 @@ Replace the placeholder values with your actual Clerk & LiveBlocks credentials. 
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+#### Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+### **Code by [Shekhar Sharma](https://linkedin.com/in/shekharsikku)**
